@@ -2,38 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/google.css">
-    <title>Google</title>
+    <link rel="stylesheet" href="css/google.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <title>Google-Clone</title>
   </head>
   <body>
     <header>
       <div class="header">
-        <nav class="navigation">
-          <ol>
-            <li>Gmail</li>
-            <li>Imágenes</li>
-            <li><i class="icon-apps"></i></li>
-            <li><img src="./image/carolinaprogramming.jpg" alt="perfil" width="50px"></li>
-          </ol>
+        <nav>
+          <ul class="nav-right-section">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Imágenes</a></li>
+            <li><a href="#"><i class="icon-apps"></i></a></li>
+            <li><a href="#"><img src="image/carolinaprogramming.jpg" alt="foto-de-perfil" width="50px"></a></li>
+          </ul>
         </nav>
       </div>
     </header>
-    <section class="content">
-      <div class="name">
-        <h1><span>G</span><span>O</span><span>O</span><span>G</span><span>L</span><span>E</span></h1>
-        <div class="input-search">
-          <form class="input" action="index.html" method="post">
-            <i class="icon-search"></i>
-            <input type="text" name="search" placeholder="">
-            <i class="icon-mic"></i>
-          </form>
+    <main>
+      <section class="main-content-name">
+        <div class="name">
+          <h1><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></h1>
         </div>
-        <div class="buttons">
+      </section>
+      <section class="main-input">
+        <div class="main-input-container">
+          <span>
+            <i class="icon-search"></i>
+          </span>
+          <input type="text" name="search" placeholder="">
+          <span>
+            <i class="icon-mic"></i>
+          </span>
+        </div>
+      </section>
+      <section class="main-buttons">
+        <div class="button-search button">
           <button type="button" name="button" class="search-google">Buscar con Google</button>
+        </div>
+        <div class="button-feel button">
           <button type="button" name="button" class="i-feel-well">Me siento con suerte</button>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer>
       <div class="footer">
         <section class="about">
