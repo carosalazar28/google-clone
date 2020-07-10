@@ -4,9 +4,9 @@
 
 **
 
-## *Este es un layout de la pagina de Google*
+## *Este es un layout de la página de Google*
 
-En este ejercicio les muestro los conocimientos que he adquirido en css y html, espero les guste y lo disfruten.
+En este ejercicio les muestro los conocimientos que he adquirido en CSS y HTML, espero les guste y lo disfruten.
 
 *Soy Carolina Salazar y quiero seguir avanzando con mis conocimientos.*
 
