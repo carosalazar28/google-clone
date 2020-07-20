@@ -106,8 +106,8 @@ main .main-input-container:hover {
 }
 
 main .main-input .icon-mic {
-  background: -webkit-linear-gradient(left top, #4285f4, #fbc21a, #ea4335, #46b062);
-  background: linear-gradient(to bottom right, #4285f4, #fbc21a, #ea4335, #46b062);
+  background: -webkit-linear-gradient(left top, #2196F3, #FFEB3B, #F44336, #46b062);
+  background: linear-gradient(to bottom right, #FFEB3B, #2196F3, #ea4335, #46b062);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
